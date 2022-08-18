@@ -1,0 +1,385 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___34" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___34_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__iphone_11_pro_max___34_ek2"
+					android:layout_width="420dp"
+					android:layout_height="760dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__iphone_11_pro_max___34_ek2_shape" />
+
+				<TextView android:id="@+id/registrarse_ek1"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="75dp"
+					android:layout_marginTop="30dp"
+					android:layout_width="143dp"
+					android:layout_height="35dp"
+					android:text="@string/registrarse_ek1_string"
+					 />
+
+				<TextView android:id="@+id/login_ek1"
+					android:fontFamily="Allerta"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_ek1_color"
+					android:layout_marginLeft="178dp"
+					android:layout_marginTop="688dp"
+					android:layout_width="60dp"
+					android:layout_height="28.5dp"
+					android:text="@string/login_ek1_string"
+					 />
+
+				<ImageView android:id="@+id/_rectangle_12_ek7"
+					android:src="@drawable/_rectangle_12_ek7"
+					android:contentDescription="_rectangle_12_ek7"
+					 android:layout_marginStart="58dp"
+					android:layout_marginTop="667dp"
+					android:layout_width="304dp"
+					android:layout_height="59dp" />
+
+				<TextView android:id="@+id/registrarse_ek2"
+					android:fontFamily="Allerta"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_ek1_color"
+					android:layout_marginLeft="144dp"
+					android:layout_marginTop="682dp"
+					android:layout_width="139dp"
+					android:layout_height="34.5dp"
+					android:text="@string/registrarse_ek2_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/chevron_left_ek15"
+					android:layout_marginTop="30dp"
+					android:layout_marginStart="42dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek21"
+						android:src="@drawable/vector_ek21"
+						android:contentDescription="vector_ek21"
+						 android:layout_marginStart="9dp"
+						android:layout_marginTop="5.5dp"
+						android:layout_width="6dp"
+						android:layout_height="11dp" />
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/line_1_ek8"
+					android:src="@drawable/line_1_ek8"
+					android:contentDescription="line_1_ek8"
+					 android:layout_marginStart="64dp"
+					android:layout_marginTop="378dp"
+					android:layout_width="291dp"
+					android:layout_height="0dp" />
+
+				<ImageView android:id="@+id/line_1_ek9"
+					android:src="@drawable/line_1_ek9"
+					android:contentDescription="line_1_ek9"
+					 android:layout_marginStart="60dp"
+					android:layout_marginTop="259dp"
+					android:layout_width="293dp"
+					android:layout_height="0dp" />
+
+				<TextView android:id="@+id/nombres"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="212dp"
+					android:layout_width="92dp"
+					android:layout_height="44dp"
+					android:text="@string/nombres_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/group_9"
+					android:layout_marginTop="491.81dp"
+					android:layout_marginStart="61.9dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/line_1_ek10"
+						android:src="@drawable/line_1_ek10"
+						android:contentDescription="line_1_ek10"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="292.86dp"
+						android:layout_height="0dp" />
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/image_19"
+					android:src="@drawable/image_19"
+					android:contentDescription="image_19"
+					 android:layout_marginStart="155dp"
+					android:layout_marginTop="78dp"
+					android:layout_width="110.99dp"
+					android:layout_height="112.38dp" />
+
+				<TextView android:id="@+id/celular_ek1"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="443dp"
+					android:layout_width="91dp"
+					android:layout_height="44dp"
+					android:text="@string/celular_ek1_string"
+					 />
+
+				<EditText android:id="@+id/etcelular"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="63dp"
+					android:layout_marginTop="463dp"
+					android:layout_width="136dp"
+					android:layout_height="40dp"
+					android:inputType="number"
+					 />
+
+				<TextView android:id="@+id/cui"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="329dp"
+					android:layout_width="256dp"
+					android:layout_height="32dp"
+					android:text="@string/cui_string"
+					 />
+
+				<TextView android:id="@+id/dni"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="387dp"
+					android:layout_width="91dp"
+					android:layout_height="31dp"
+					android:text="@string/dni_string"
+					 />
+
+				<EditText android:id="@+id/etdni"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="63dp"
+					android:layout_marginTop="408dp"
+					android:layout_width="136dp"
+					android:layout_height="40dp"
+					android:inputType="number"
+					 />
+
+				<ImageView android:id="@+id/line_1_ek11"
+					android:src="@drawable/line_1_ek11"
+					android:contentDescription="line_1_ek11"
+					 android:layout_marginStart="63dp"
+					android:layout_marginTop="433dp"
+					android:layout_width="291dp"
+					android:layout_height="0dp" />
+
+				<TextView android:id="@+id/correo_electr_nico_institucional_ek1"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="543dp"
+					android:layout_width="274dp"
+					android:layout_height="32dp"
+					android:text="@string/correo_electr_nico_institucional_ek1_string"
+					 />
+
+				<EditText android:id="@+id/etemail"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="63dp"
+					android:layout_marginTop="568dp"
+					android:layout_width="209dp"
+					android:layout_height="40dp"
+					android:inputType="textEmailAddress"
+					 />
+
+				<ImageView android:id="@+id/line_1_ek12"
+					android:src="@drawable/line_1_ek12"
+					android:contentDescription="line_1_ek12"
+					 android:layout_marginStart="63dp"
+					android:layout_marginTop="591dp"
+					android:layout_width="291dp"
+					android:layout_height="0dp" />
+
+				<ImageView android:id="@+id/line_1_ek13"
+					android:src="@drawable/line_1_ek13"
+					android:contentDescription="line_1_ek13"
+					 android:layout_marginStart="63dp"
+					android:layout_marginTop="653dp"
+					android:layout_width="291dp"
+					android:layout_height="0dp" />
+
+				<TextView android:id="@+id/contrase_a_ek2"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="606dp"
+					android:layout_width="183dp"
+					android:layout_height="30dp"
+					android:text="@string/contrase_a_ek2_string"
+					 />
+
+				<TextView android:id="@+id/ciudad_ek1"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="510dp"
+					android:layout_width="91dp"
+					android:layout_height="39dp"
+					android:text="@string/ciudad_ek1_string"
+					 />
+
+				<TextView android:id="@+id/arequipa_ek1"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="149dp"
+					android:layout_marginTop="508dp"
+					android:layout_width="220dp"
+					android:layout_height="31dp"
+					android:text="@string/arequipa_ek1_string"
+					 />
+
+				<EditText android:id="@+id/etpassword"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="63dp"
+					android:layout_marginTop="630dp"
+					android:layout_width="136dp"
+					android:layout_height="30dp"
+					android:inputType="textPassword"
+					 />
+
+				<ImageView android:id="@+id/line_1_ek15"
+					android:src="@drawable/line_1_ek15"
+					android:contentDescription="line_1_ek15"
+					 android:layout_marginStart="60dp"
+					android:layout_marginTop="317dp"
+					android:layout_width="293dp"
+					android:layout_height="0dp" />
+
+				<EditText android:id="@+id/etcui"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="344dp"
+					android:layout_width="137dp"
+					android:layout_height="40dp"
+					android:inputType="number"
+
+					 />
+
+				<TextView android:id="@+id/apellidos"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="59dp"
+					android:layout_marginTop="269dp"
+					android:layout_width="124dp"
+					android:layout_height="44dp"
+					android:text="@string/apellidos_string"
+					 />
+
+				<EditText android:id="@+id/etapellidos"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="280dp"
+					android:layout_width="186dp"
+					android:layout_height="40dp"
+
+					 />
+
+				<EditText android:id="@+id/etnombres"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="58dp"
+					android:layout_marginTop="229dp"
+					android:layout_width="186dp"
+					android:layout_height="35dp"
+
+					 />
+
+				<ImageView android:id="@+id/line_1_ek16"
+					android:src="@drawable/line_1_ek16"
+					android:contentDescription="line_1_ek16"
+					 android:layout_marginStart="147dp"
+					android:layout_marginTop="532dp"
+					android:layout_width="210dp"
+					android:layout_height="0dp" />
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

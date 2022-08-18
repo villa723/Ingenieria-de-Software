@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- scooby_attendance colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+
+	<color name="_bg__iphone_11_pro_max___24_ek2_color">#F2F2F2</color>
+	<color name="rectangle_3_color">#FFFFFF</color>
+	<color name="ingresar_color">#000000</color>
+	<color name="__olvidaste_tu_contrase_a__color">#9F3647</color>
+	<color name="_rectangle_12_color">#800000</color>
+	<color name="ingresar_ek1_color">#F6F6F9</color>
+	<color name="_bg__iphone_11_pro_max___25_ek2_color">#F5F5F8</color>
+	<color name="rectangle_12_ek1_color">#880000</color>
+	<color name="ellipse_7_color">#ffffff</color>
+	<color name="ellipse_8_color">#80000C</color>
+	<color name="rectangle_12_ek2_color">#C4C4C4</color>
+	<color name="rectangle_2_ek4_color">#EFB60E</color>
+	<color name="rectangle_13_color">#F29DB0</color>
+	<color name="rectangle_14_color">#00881D</color>
+	<color name="rectangle_16_ek2_color">#880051</color>
+	<color name="line_3_ek6_color">#DED2D6</color>
+</resources>

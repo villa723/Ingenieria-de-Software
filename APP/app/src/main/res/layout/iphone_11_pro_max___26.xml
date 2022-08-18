@@ -1,0 +1,258 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___26" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___26_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__iphone_11_pro_max___26_ek2"
+					android:background="@drawable/_bg__iphone_11_pro_max___26_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="420dp"
+					android:layout_height="881dp" />
+
+				<TextView android:id="@+id/reporte_por_curso"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="77dp"
+					android:layout_marginTop="61dp"
+					android:layout_width="178dp"
+					android:layout_height="36dp"
+					android:text="@string/reporte_por_curso_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/chevron_left_ek16"
+					android:layout_marginTop="60dp"
+					android:layout_marginStart="41dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek23"
+						android:src="@drawable/vector_ek23"
+						android:contentDescription="vector_ek23"
+						 android:layout_marginStart="9dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="6dp"
+						android:layout_height="12dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/informaci_n"
+					android:fontFamily="Allerta"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="56dp"
+					android:layout_marginTop="377dp"
+					android:layout_width="117dp"
+					android:layout_height="37.09dp"
+					android:text="@string/informaci_n_string"
+					 />
+
+				<View
+					android:id="@+id/rectangle_11_ek5"
+					android:layout_width="315dp"
+					android:layout_height="181.47dp"
+					android:layout_marginStart="53dp"
+					android:layout_marginTop="423.53dp"
+					android:background="@drawable/rectangle_11_ek5_shape" />
+
+				<TextView
+					android:id="@+id/docente__nombre1_apellido_1"
+					android:layout_width="205dp"
+					android:layout_height="38.5dp"
+					android:layout_gravity="center_vertical|end"
+					android:layout_marginLeft="76dp"
+					android:layout_marginTop="447dp"
+					android:fontFamily="Abel"
+					android:gravity="end"
+					android:text="@string/docente__nombre1_apellido_1_string"
+					android:textColor="@color/ingresar_color"
+					android:textSize="17sp" />
+
+				<TextView
+					android:id="@+id/numero_de_creditos__5_cantidad_de_examenes__3"
+					android:layout_width="177dp"
+					android:layout_height="65.96dp"
+					android:layout_marginLeft="84dp"
+					android:layout_marginTop="490.04dp"
+					android:fontFamily="Abel"
+					android:text="@string/numero_de_creditos__5_cantidad_de_examenes__3_string"
+					android:textColor="@color/ingresar_color"
+					android:textSize="17sp" />
+
+				<TextView android:id="@+id/delegado__nombre1_apellido1"
+					android:fontFamily="Abel"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="84dp"
+					android:layout_marginTop="553dp"
+					android:layout_width="214dp"
+					android:layout_height="39.5dp"
+					android:text="@string/delegado__nombre1_apellido1_string"
+					 />
+
+				<View android:id="@+id/line_3_ek5"
+					android:background="@drawable/line_3_ek5_shape"
+					 android:alpha="0.3"
+					 android:layout_marginStart="83.98dp"
+					android:layout_marginTop="481.95dp"
+					android:layout_width="250dp"
+					android:layout_height="0.5dp" />
+
+				<View android:id="@+id/line_4"
+					android:background="@drawable/line_4_shape"
+					 android:alpha="0.3"
+					 android:layout_marginStart="84dp"
+					android:layout_marginTop="543.44dp"
+					android:layout_width="250dp"
+					android:layout_height="0.5dp" />
+
+
+				<RelativeLayout android:id="@+id/dashicons_bank_ek1"
+					android:layout_marginTop="538.69dp"
+					android:layout_marginStart="136dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+				</RelativeLayout>
+
+				<View android:id="@+id/rectangle_10_ek15"
+					android:background="@drawable/rectangle_10_ek15_shape"
+					 android:layout_marginStart="1dp"
+					android:layout_marginTop="131dp"
+					android:layout_width="419dp"
+					android:layout_height="95dp" />
+
+				<TextView android:id="@+id/calculo_en_varias_variables_ek6"
+					android:fontFamily="Allerta"
+					android:textSize="24sp"
+					android:textColor="@color/rectangle_3_color"
+					android:layout_marginLeft="50dp"
+					android:layout_marginTop="145dp"
+					android:layout_width="252dp"
+					android:layout_height="82.44dp"
+					android:text="@string/calculo_en_varias_variables_ek6_string"
+					 />
+
+				<TextView android:id="@+id/reporte"
+					android:fontFamily="Allerta"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="57dp"
+					android:layout_marginTop="630dp"
+					android:layout_width="97dp"
+					android:layout_height="30.5dp"
+					android:text="@string/reporte_string"
+					 />
+
+				<View android:id="@+id/rectangle_11_ek6"
+					android:background="@drawable/rectangle_11_ek6_shape"
+					 android:layout_marginStart="53dp"
+					android:layout_marginTop="671dp"
+					android:layout_width="315dp"
+					android:layout_height="179dp" />
+
+				<TextView android:id="@+id/promedio__4_3"
+					android:fontFamily="Abel"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="87.16dp"
+					android:layout_marginTop="704dp"
+					android:layout_width="211dp"
+					android:layout_height="27.93dp"
+					android:text="@string/promedio__4_3_string"
+					 />
+
+				<View android:id="@+id/line_3_ek6"
+					android:background="@drawable/line_3_ek6_shape"
+					 android:alpha="0.3"
+					 android:layout_marginStart="106dp"
+					android:layout_marginTop="735dp"
+					android:layout_width="260dp"
+					android:layout_height="0.5dp" />
+
+				<TextView android:id="@+id/tardanzas__1"
+					android:fontFamily="Abel"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="86.97dp"
+					android:layout_marginTop="749dp"
+					android:layout_width="184.13dp"
+					android:layout_height="26.66dp"
+					android:text="@string/tardanzas__1_string"
+					 />
+
+				<View android:id="@+id/line_3_ek7"
+					android:background="@drawable/line_3_ek7_shape"
+					 android:alpha="0.3"
+					 android:layout_marginStart="86dp"
+					android:layout_marginTop="780dp"
+					android:layout_width="224.93dp"
+					android:layout_height="0.5dp" />
+
+				<TextView android:id="@+id/faltas__0"
+					android:fontFamily="Abel"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="87dp"
+					android:layout_marginTop="799dp"
+					android:layout_width="98dp"
+					android:layout_height="29.5dp"
+					android:text="@string/faltas__0_string"
+					 />
+
+				<ImageView android:id="@+id/image"
+					android:src="@drawable/image"
+					android:contentDescription="image"
+					 android:layout_marginStart="149dp"
+					android:layout_marginTop="246dp"
+					android:layout_width="121dp"
+					android:layout_height="111dp" />
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

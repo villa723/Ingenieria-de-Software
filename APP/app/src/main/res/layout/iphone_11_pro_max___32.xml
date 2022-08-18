@@ -1,0 +1,139 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___32" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___32_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__iphone_11_pro_max___32_ek2"
+					android:layout_width="420dp"
+					android:layout_height="740dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__iphone_11_pro_max___32_ek2_shape" />
+
+				<TextView
+					android:id="@+id/sin_conexi_n"
+					android:layout_width="198dp"
+					android:layout_height="56dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="110dp"
+					android:layout_marginTop="309dp"
+					android:fontFamily="Allerta"
+					android:gravity="center"
+					android:text="@string/sin_conexi_n_string"
+					android:textColor="@color/ingresar_color"
+					android:textSize="28sp" />
+
+				<TextView
+					android:id="@+id/tu_conexi_n_a_internet_no_esta_disponible__int_ntelo_de_nuevo_"
+					android:layout_width="286dp"
+					android:layout_height="55.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="372dp"
+					android:alpha="0.57"
+					android:fontFamily="Abel"
+					android:gravity="center"
+					android:text="@string/tu_conexi_n_a_internet_no_esta_disponible__int_ntelo_de_nuevo__string"
+					android:textColor="@color/ingresar_color"
+					android:textSize="17sp" />
+
+				<View
+					android:id="@+id/rectangle_2_ek3"
+					android:layout_width="314dp"
+					android:layout_height="70dp"
+					android:layout_marginStart="50dp"
+					android:layout_marginTop="463dp"
+					android:background="@drawable/rectangle_2_ek3_shape" />
+
+				<TextView
+					android:id="@+id/intentar_de_nuevo"
+					android:layout_width="168dp"
+					android:layout_height="33.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="120dp"
+					android:layout_marginTop="480dp"
+					android:fontFamily="Allerta"
+					android:gravity="center"
+					android:text="@string/intentar_de_nuevo_string"
+					android:textColor="@color/ingresar_ek1_color"
+					android:textSize="17sp" />
+
+
+				<RelativeLayout android:id="@+id/eva_wifi_off_fill"
+					android:layout_marginTop="123dp"
+					android:layout_marginStart="130dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/group_ek1"
+						android:layout_marginTop="19.97dp"
+						android:layout_marginStart="13.49dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/vector_ek13"
+							android:src="@drawable/vector_ek13"
+							android:contentDescription="vector_ek13"
+							 android:layout_marginStart="60dp"
+							android:layout_marginTop="100dp"
+							android:layout_width="13.33dp"
+							android:layout_height="13.33dp" />
+
+						<ImageView android:id="@+id/vector_ek14"
+							android:src="@drawable/vector_ek14"
+							android:contentDescription="vector_ek14"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="133.29dp"
+							android:layout_height="120.07dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

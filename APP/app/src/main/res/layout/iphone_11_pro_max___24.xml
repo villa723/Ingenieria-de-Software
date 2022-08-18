@@ -1,0 +1,226 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___24" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___24_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/_bg__iphone_11_pro_max___24_ek2"
+					android:layout_width="420dp"
+					android:layout_height="740dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__iphone_11_pro_max___24_ek2_shape" />
+
+				<View
+					android:id="@+id/rectangle_3"
+					android:layout_width="420dp"
+					android:layout_height="402dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-43dp"
+					android:background="@drawable/rectangle_3_shape" />
+
+				<TextView android:id="@+id/ingresar"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="78dp"
+					android:layout_marginTop="320dp"
+					android:layout_width="102dp"
+					android:layout_height="36dp"
+					android:text="@string/ingresar_string"
+					 />
+
+				<TextView android:id="@+id/_registrarse"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="271dp"
+					android:layout_marginTop="315dp"
+					android:layout_width="136dp"
+					android:layout_height="37dp"
+					android:text="@string/_registrarse_string"
+					 />
+
+				<ImageView android:id="@+id/rectangle_1"
+					android:src="@drawable/rectangle_1"
+					android:contentDescription="rectangle_1"
+					 android:layout_marginStart="44dp"
+					android:layout_marginTop="356dp"
+					android:layout_width="156dp"
+					android:layout_height="3dp" />
+
+
+				<RelativeLayout android:id="@+id/group_1"
+					android:layout_marginTop="411dp"
+					android:layout_marginStart="33.04dp"
+					android:layout_width="wrap_content"
+					android:layout_height="60dp"
+					>
+
+					<TextView android:id="@+id/correo_institucional"
+						android:fontFamily="Allerta"
+						android:alpha="0.4"
+						 android:textSize="15sp"
+						android:textColor="@color/ingresar_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="187dp"
+						android:layout_height="24.13dp"
+						android:text="@string/correo_institucional_string"
+						 />
+
+					<View android:id="@+id/line_1"
+						android:background="@drawable/line_1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="60dp"
+						android:layout_width="364.72dp"
+						android:layout_height="0.5dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/group_2"
+					android:layout_marginTop="474.49dp"
+					android:layout_marginStart="33.04dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView android:id="@+id/contrase_a"
+						android:fontFamily="Allerta"
+						android:alpha="0.4"
+						 android:textSize="15sp"
+						android:textColor="@color/ingresar_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="112.39dp"
+						android:layout_height="25.84dp"
+						android:text="@string/contrase_a_string"
+						 />
+
+					<EditText
+						android:id="@+id/password"
+						android:layout_width="226dp"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="27dp"
+						android:fontFamily="Allerta"
+						android:inputType="textPassword"
+						android:hint="*****"
+						android:textColor="@color/ingresar_color"
+						android:textSize="17sp" />
+
+					<View android:id="@+id/line_1_ek1"
+						android:background="@drawable/line_1_ek1_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="65dp"
+						android:layout_width="364.72dp"
+						android:layout_height="0.5dp" />
+
+				</RelativeLayout>
+
+				<EditText
+					android:id="@+id/alumno_unsa_edu_pe"
+					android:layout_width="225dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="430dp"
+					android:fontFamily="Allerta"
+					android:hint="correo@unsa.edu.pe"
+					android:inputType="textEmailAddress"
+					android:textColor="@color/ingresar_color"
+					android:textSize="17sp" />
+
+				<TextView android:id="@+id/__olvidaste_tu_contrase_a_"
+					android:fontFamily="Allerta"
+					android:textSize="17sp"
+					android:textColor="@color/__olvidaste_tu_contrase_a__color"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="544.27dp"
+					android:layout_width="272dp"
+					android:layout_height="34.5dp"
+					android:text="@string/__olvidaste_tu_contrase_a__string"
+					 />
+
+				<ImageView android:id="@+id/logodog_2"
+					android:src="@drawable/logodog_2"
+					android:contentDescription="logodog_2"
+					 android:layout_marginStart="78dp"
+					android:layout_marginTop="62dp"
+					android:layout_width="261dp"
+					android:layout_height="208dp" />
+
+
+				<RelativeLayout
+					android:id="@+id/group_72"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="620dp">
+
+					<View
+						android:id="@+id/_rectangle_12"
+						android:layout_width="364.72dp"
+						android:layout_height="60.32dp"
+						android:layout_marginStart="22dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/_rectangle_12_shape" />
+
+					<TextView
+						android:id="@+id/ingresar_ek1"
+						android:layout_width="432dp"
+						android:layout_height="60.41dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="-3dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="Allerta"
+						android:gravity="center"
+						android:text="@string/ingresar_ek1_string"
+						android:textColor="@color/ingresar_ek1_color"
+						android:textSize="17sp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

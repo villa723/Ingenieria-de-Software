@@ -1,0 +1,181 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___54" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___54_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__iphone_11_pro_max___54_ek2"
+					android:background="@drawable/_bg__iphone_11_pro_max___54_ek2_shape"
+					 android:alpha="0.8"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="420dp"
+					android:layout_height="740dp" />
+
+
+				<RelativeLayout android:id="@+id/chevron_left_ek13"
+					android:layout_marginTop="60dp"
+					android:layout_marginStart="46dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek19"
+						android:src="@drawable/vector_ek19"
+						android:contentDescription="vector_ek19"
+						 android:layout_marginStart="10.88dp"
+						android:layout_marginTop="6.75dp"
+						android:layout_width="7.25dp"
+						android:layout_height="13.5dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/asesor_a"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="100dp"
+					android:layout_marginTop="60dp"
+					android:layout_width="109dp"
+					android:layout_height="39dp"
+					android:text="@string/asesor_a_string"
+					 />
+
+				<View
+					android:id="@+id/rectangle_14_ek2"
+					android:layout_width="356dp"
+					android:layout_height="250dp"
+					android:layout_marginStart="36dp"
+					android:layout_marginTop="380dp"
+					android:background="@drawable/rectangle_14_ek2_shape" />
+
+				<TextView
+					android:id="@+id/nombres_apellido1_929929556_nombres_apellido1_929929556_nombres_apellido1_929929556_nombres_apellido1_929929556_nombres_apellido1_929929556_nombres_apellido1_929929556_nombres_apellido1_929929556_nombres_apellido1_929929556_nombres_apellido1_929929556_nombres_apellido1_929929556"
+					android:layout_width="275dp"
+					android:layout_height="227.5dp"
+					android:layout_marginLeft="78dp"
+					android:layout_marginTop="385.5dp"
+					android:fontFamily="Abel"
+					android:text="Jaime José Gutierrez Zevallos \n +51 940 833 612
+	Piero Emiliano Vizcarra Vargas\n +51 977 336 451
+	Luz Marina Pilco Pancca\n +51 958 724 871
+	Fernando Thomas Villanueva Sanchez\n +51 995 194 971
+	Adrian Rolando Bedregal Vento\n +51 959 414 777"
+					android:textColor="@color/ingresar_color"
+					android:textSize="15sp" />
+
+				<View
+					android:id="@+id/rectangle_10_ek13"
+					android:layout_width="415dp"
+					android:layout_height="68dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="317dp"
+					android:background="@drawable/rectangle_10_ek13_shape" />
+
+				<TextView
+					android:id="@+id/centro_estudiantil"
+					android:layout_width="415dp"
+					android:layout_height="36.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="332dp"
+					android:fontFamily="Allerta"
+					android:gravity="center"
+					android:text="@string/centro_estudiantil_string"
+					android:textColor="@color/rectangle_3_color"
+					android:textSize="17sp" />
+
+				<View android:id="@+id/rectangle_13_ek2"
+					android:background="@drawable/rectangle_13_ek2_shape"
+					 android:layout_marginStart="36dp"
+					android:layout_marginTop="135dp"
+					android:layout_width="356dp"
+					android:layout_height="100dp" />
+
+				<TextView
+					android:id="@+id/roxana_flores_quispe"
+					android:layout_width="238dp"
+					android:layout_height="36.5dp"
+					android:layout_marginLeft="108dp"
+					android:layout_marginTop="150dp"
+					android:fontFamily="Allerta"
+					android:text="@string/roxana_flores_quispe_string"
+					android:textColor="@color/ingresar_color"
+					android:textSize="17sp" />
+
+				<TextView
+					android:id="@+id/computercs_unsa_edu_pe_ek1"
+					android:layout_width="211dp"
+					android:layout_height="40.5dp"
+					android:layout_marginLeft="108dp"
+					android:layout_marginTop="175dp"
+					android:alpha="0.5"
+					android:fontFamily="Abel"
+					android:text="rfloresqu@unsa.edu.pe"
+					android:textColor="@color/ingresar_color"
+					android:textSize="15sp" />
+
+				<View
+					android:id="@+id/rectangle_10_ek14"
+					android:layout_width="414dp"
+					android:layout_height="68dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="219dp"
+					android:background="@drawable/rectangle_10_ek14_shape" />
+
+				<TextView
+					android:id="@+id/contactarse_con_tutor_a"
+					android:layout_width="415dp"
+					android:layout_height="36.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="235dp"
+					android:fontFamily="Allerta"
+					android:gravity="center"
+					android:text="@string/contactarse_con_tutor_a_string"
+					android:textColor="@color/rectangle_3_color"
+					android:textSize="17sp" />
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

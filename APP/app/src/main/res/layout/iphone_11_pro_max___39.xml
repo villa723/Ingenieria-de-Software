@@ -1,0 +1,141 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___39" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___39_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__iphone_11_pro_max___39_ek2"
+					android:background="@drawable/_bg__iphone_11_pro_max___39_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="420dp"
+					android:layout_height="740dp" />
+
+
+				<RelativeLayout android:id="@+id/chevron_left_ek11"
+					android:layout_marginTop="60dp"
+					android:layout_marginStart="14dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek17"
+						android:src="@drawable/vector_ek17"
+						android:contentDescription="vector_ek17"
+						 android:layout_marginStart="9dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="6dp"
+						android:layout_height="12dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/soporte_ek1"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="63dp"
+					android:layout_marginTop="60dp"
+					android:layout_width="85dp"
+					android:layout_height="36dp"
+					android:text="@string/soporte_ek1_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/group_71"
+					android:layout_marginTop="149dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View
+						android:id="@+id/rectangle_10_ek10"
+						android:layout_width="420dp"
+						android:layout_height="82dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/rectangle_10_ek10_shape" />
+
+					<TextView
+						android:id="@+id/grupo_5_trabajo_interdiciplinar"
+						android:layout_width="420dp"
+						android:layout_height="55.5dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="14dp"
+						android:fontFamily="Allerta"
+						android:gravity="center"
+						android:text="@string/grupo_5_trabajo_interdiciplinar_string"
+						android:textColor="@color/rectangle_3_color"
+						android:textSize="17sp" />
+
+				</RelativeLayout>
+
+				<ImageView
+					android:id="@+id/logodog_2_ek1"
+					android:layout_width="263dp"
+					android:layout_height="198dp"
+					android:layout_marginStart="76dp"
+					android:layout_marginTop="420dp"
+					android:contentDescription="logodog_2_ek1"
+					android:src="@drawable/logodog_2_ek1" />
+
+				<View android:id="@+id/rectangle_15_ek3"
+					android:background="@drawable/rectangle_15_ek3_shape"
+					 android:layout_marginStart="59dp"
+					android:layout_marginTop="263dp"
+					android:layout_width="296dp"
+					android:layout_height="132dp" />
+
+				<TextView
+					android:id="@+id/andres_carrasco_929929556_fiorela_villarroel_929929556_merisabel_ruelas_929929556_piero_vizcarra_929929556"
+					android:layout_width="252dp"
+					android:layout_height="94.5dp"
+					android:layout_marginLeft="80dp"
+					android:layout_marginTop="280dp"
+					android:fontFamily="Abel"
+					android:text="Piero Vizcarra 929654552\n Fiorela Villarroel 952545987\nMerisabel Ruelas 925789456\nAndres Carrasco 9123578545"
+					android:textColor="@color/ingresar_color"
+					android:textSize="15sp" />
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

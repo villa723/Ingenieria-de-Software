@@ -1,0 +1,106 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___27" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___27_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__iphone_11_pro_max___27_ek2"
+					android:background="@drawable/_bg__iphone_11_pro_max___27_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="420dp"
+					android:layout_height="847dp" />
+
+				<TextView android:id="@+id/horario_ek1"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="111dp"
+					android:layout_marginTop="58dp"
+					android:layout_width="93dp"
+					android:layout_height="38dp"
+					android:text="@string/horario_ek1_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/chevron_left_ek7"
+					android:layout_marginTop="60dp"
+					android:layout_marginStart="25dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek10"
+						android:src="@drawable/vector_ek10"
+						android:contentDescription="vector_ek10"
+						 android:layout_marginStart="7.88dp"
+						android:layout_marginTop="5.75dp"
+						android:layout_width="5.25dp"
+						android:layout_height="11.5dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/mi_rcoles"
+					android:fontFamily="Allerta"
+					android:textSize="17sp"
+					android:textColor="@color/rectangle_3_color"
+					android:layout_marginLeft="45dp"
+					android:layout_marginTop="613dp"
+					android:layout_width="149dp"
+					android:layout_height="32.5dp"
+					android:text="@string/mi_rcoles_string"
+					 />
+
+
+				<ListView
+					android:id="@+id/horario"
+					android:layout_marginTop="111dp"
+					android:layout_marginStart="23dp"
+					android:layout_width="360dp"
+					android:layout_height="500dp">
+
+				</ListView>
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

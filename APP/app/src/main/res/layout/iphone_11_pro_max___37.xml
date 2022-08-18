@@ -1,0 +1,198 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___37" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___37_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__iphone_11_pro_max___37_ek2"
+					android:background="@drawable/_bg__iphone_11_pro_max___37_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="420dp"
+					android:layout_height="740dp" />
+
+				<View android:id="@+id/rectangle_2_ek2"
+					android:background="@drawable/rectangle_2_ek2_shape"
+					 android:layout_marginStart="70dp"
+					android:layout_marginTop="598dp"
+					android:layout_width="314dp"
+					android:layout_height="70dp" />
+
+				<TextView android:id="@+id/guardar"
+					android:fontFamily="Allerta"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_ek1_color"
+					android:layout_marginLeft="68dp"
+					android:layout_marginTop="604dp"
+					android:layout_width="327dp"
+					android:layout_height="68.5dp"
+					android:text="@string/guardar_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/chevron_left_ek8"
+					android:layout_marginTop="64dp"
+					android:layout_marginStart="53dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek11"
+						android:src="@drawable/vector_ek11"
+						android:contentDescription="vector_ek11"
+						 android:layout_marginStart="9dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="6dp"
+						android:layout_height="12dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/editar_perfil_ek1"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="98dp"
+					android:layout_marginTop="63dp"
+					android:layout_width="123dp"
+					android:layout_height="36dp"
+					android:text="@string/editar_perfil_ek1_string"
+					 />
+
+				<View android:id="@+id/rectangle_16"
+					android:background="@drawable/rectangle_16_shape"
+					 android:layout_marginStart="89dp"
+					android:layout_marginTop="151dp"
+					android:layout_width="266dp"
+					android:layout_height="231dp" />
+
+				<ImageView android:id="@+id/image_21"
+					android:src="@drawable/image_21"
+					android:contentDescription="image_21"
+					 android:layout_marginStart="315dp"
+					android:layout_marginTop="341dp"
+					android:layout_width="40dp"
+					android:layout_height="39dp" />
+
+				<ImageView android:id="@+id/arrow_2"
+					android:src="@drawable/arrow_2"
+					android:contentDescription="arrow_2"
+					 android:layout_marginStart="-133dp"
+					android:layout_marginTop="-169dp"
+					android:layout_width="346.37dp"
+					android:layout_height="0dp" />
+
+				<ImageView android:id="@+id/line_1_ek2"
+					android:src="@drawable/line_1_ek2"
+					android:contentDescription="line_1_ek2"
+					 android:layout_marginStart="67.94dp"
+					android:layout_marginTop="481.13dp"
+					android:layout_width="302.56dp"
+					android:layout_height="0dp" />
+
+				<TextView android:id="@+id/celular"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="67dp"
+					android:layout_marginTop="424dp"
+					android:layout_width="95dp"
+					android:layout_height="49.8dp"
+					android:text="@string/celular_string"
+					 />
+
+				<TextView android:id="@+id/xxx_xxx_xxx"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="67.94dp"
+					android:layout_marginTop="452.89dp"
+					android:layout_width="141.11dp"
+					android:layout_height="33.75dp"
+					android:text="@string/xxx_xxx_xxx_string"
+					 />
+
+				<ImageView android:id="@+id/line_1_ek3"
+					android:src="@drawable/line_1_ek3"
+					android:contentDescription="line_1_ek3"
+					 android:layout_marginStart="154dp"
+					android:layout_marginTop="527dp"
+					android:layout_width="217.98dp"
+					android:layout_height="0dp" />
+
+				<TextView android:id="@+id/ciudad"
+					android:fontFamily="Allerta"
+					android:alpha="0.4"
+					 android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="67dp"
+					android:layout_marginTop="502.32dp"
+					android:layout_width="95dp"
+					android:layout_height="44.66dp"
+					android:text="@string/ciudad_string"
+					 />
+
+				<TextView android:id="@+id/arequipa"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="155.01dp"
+					android:layout_marginTop="504.03dp"
+					android:layout_width="229dp"
+					android:layout_height="33.75dp"
+					android:text="@string/arequipa_string"
+					 />
+
+				<ImageView android:id="@+id/vector_ek12"
+					android:src="@drawable/vector_ek12"
+					android:contentDescription="vector_ek12"
+					 android:layout_marginStart="345dp"
+					android:layout_marginTop="508dp"
+					android:layout_width="18dp"
+					android:layout_height="9dp" />
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

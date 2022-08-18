@@ -1,0 +1,192 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		scooby_attendance
+	 *	@date 		1628645649981
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_11_pro_max___25" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout android:id="@+id/page_iphone_11_pro_max___25_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__iphone_11_pro_max___25_ek2"
+					android:background="@drawable/_bg__iphone_11_pro_max___25_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="420dp"
+					android:layout_height="740dp" />
+
+				<TextView android:id="@+id/cursos_hoy"
+					android:fontFamily="Allerta"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="299dp"
+					android:layout_width="116dp"
+					android:layout_height="33.5dp"
+					android:text="@string/cursos_hoy_string"
+					 />
+
+				<TextView android:id="@+id/bienvenido_estudiante"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="103dp"
+					android:layout_width="218dp"
+					android:layout_height="36dp"
+					android:text="@string/bienvenido_estudiante_string"
+					 />
+
+				<View android:id="@+id/_rectangle_10"
+					android:background="@drawable/_rectangle_10_shape"
+					 android:layout_marginStart="52dp"
+					android:layout_marginTop="138dp"
+					android:layout_width="315dp"
+					android:layout_height="133dp" />
+
+				<ListView
+					android:id="@+id/lvcursos"
+					android:layout_width="302dp"
+					android:layout_height="207dp"
+					android:layout_marginStart="57dp"
+					android:layout_marginTop="338dp"
+					android:background="@drawable/rectangle_11_shape" />
+
+				<TextView android:id="@+id/ciencia_de_la_computaci_n"
+					android:fontFamily="Allerta"
+					android:textSize="18sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="105dp"
+					android:layout_marginTop="60dp"
+					android:layout_width="252dp"
+					android:layout_height="36dp"
+					android:text="@string/ciencia_de_la_computaci_n_string"
+					 />
+
+				<TextView android:id="@+id/alumno_apellido"
+					android:fontFamily="Allerta"
+					android:textSize="14sp"
+					android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="175dp"
+					android:layout_marginTop="160dp"
+					android:layout_width="180dp"
+					android:layout_height="25dp"
+					android:text="@string/alumno_apellido_string"
+					 />
+
+				<TextView android:id="@+id/estudiante_unsa_edu_pe"
+					android:fontFamily="ABeeZee"
+					android:alpha="0.5"
+					 android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="172dp"
+					android:layout_marginTop="186dp"
+					android:layout_width="219dp"
+					android:layout_height="23dp"
+					android:text="@string/estudiante_unsa_edu_pe_string"
+					 />
+
+				<TextView android:id="@+id/estudiante_de_la_escuela_ciencia_de_la_computaci_n_de_produccion_y_servicios"
+					android:fontFamily="Mulish"
+					android:alpha="0.5"
+					 android:textColor="@color/ingresar_color"
+					android:layout_marginLeft="171dp"
+					android:layout_marginTop="205dp"
+					android:layout_width="202dp"
+					android:layout_height="50dp"
+					android:text="@string/estudiante_de_la_escuela_ciencia_de_la_computaci_n_de_produccion_y_servicios_string"
+					 />
+
+				<View android:id="@+id/rectangle_2"
+					android:background="@drawable/rectangle_2_shape"
+					 android:layout_marginStart="57dp"
+					android:layout_marginTop="631dp"
+					android:layout_width="302dp"
+					android:layout_height="70dp" />
+
+				<TextView android:id="@+id/marcar_asistencia"
+					android:fontFamily="Allerta"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="17sp"
+					android:textColor="@color/ingresar_ek1_color"
+					android:layout_marginLeft="28dp"
+					android:layout_marginTop="645dp"
+					android:layout_width="369dp"
+					android:layout_height="39.5dp"
+					android:text="@string/marcar_asistencia_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/chevron_left"
+					android:layout_marginTop="57dp"
+					android:layout_marginStart="46dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector"
+						android:src="@drawable/vector"
+						android:contentDescription="vector"
+						 android:layout_marginStart="9dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="6dp"
+						android:layout_height="12dp" />
+
+				</RelativeLayout>
+
+				<View android:id="@+id/_rectangle_3_ek1"
+					android:background="@drawable/_rectangle_3_ek1_shape"
+					 android:layout_marginStart="211dp"
+					android:layout_marginTop="303dp"
+					android:layout_width="158dp"
+					android:layout_height="28dp" />
+
+				<TextView android:id="@+id/horario"
+					android:fontFamily="Allerta"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="17sp"
+					android:textColor="@color/rectangle_3_color"
+					android:layout_marginLeft="223dp"
+					android:layout_marginTop="298dp"
+					android:layout_width="147dp"
+					android:layout_height="38.5dp"
+					android:text="@string/horario_string"
+					 />
+
+				<View android:id="@+id/rectangle_15"
+					android:background="@drawable/rectangle_15_shape"
+					 android:layout_marginStart="77dp"
+					android:layout_marginTop="164dp"
+					android:layout_width="79dp"
+					android:layout_height="81dp" />
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
