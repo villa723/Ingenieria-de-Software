@@ -1,16 +1,16 @@
 const express = require("express");
 const router = express.Router();
-const VerifyModel = require("../Domain/models/verify.model");
+const VerifyModel = require("../../../Domain/models/verify.model");
 const verifyDb = new VerifyModel();
-const CityModel = require("../Domain/models/city.model");
+const CityModel = require("../../../Domain/models/city.model");
 const cityDb = new CityModel();
-const SectionModel = require("../Domain/models/section.model");
+const SectionModel = require("../../../Domain/models/section.model");
 const sectionDb = new SectionModel();
-const TypeModel = require("../Domain/models/type.model");
+const TypeModel = require("../../../Domain/models/type.model");
 const typeDb = new TypeModel();
-const PersonModel = require("../Domain/models/person.model");
+const PersonModel = require("../../../Domain/models/person.model");
 const personDb = new PersonModel();
-const CourseModel = require("../Domain/models/course.model");
+const CourseModel = require("../../../Domain/models/course.model");
 const courseDb = new CourseModel();
 
 class DataController {

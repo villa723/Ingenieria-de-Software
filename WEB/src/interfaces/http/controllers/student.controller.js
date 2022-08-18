@@ -1,18 +1,18 @@
 const express = require("express");
 const router = express.Router();
-const LoginModel = require("../Domain/models/login.model");
+const LoginModel = require("../../../Domain/models/login.model");
 const loginDb = new LoginModel();
-const VerifyModel = require("../Domain/models/verify.model");
+const VerifyModel = require("../../../Domain/models/verify.model");
 const verifyDb = new VerifyModel();
-const StudentModel = require("../Domain/models/student.model");
+const StudentModel = require("../../../Domain/models/student.model");
 const studentDb = new StudentModel();
-const PersonModel = require("../Domain/models/person.model");
+const PersonModel = require("../../../Domain/models/person.model");
 const personDb = new PersonModel();
-const InscriptionModel = require("../Domain/models/inscription.model");
+const InscriptionModel = require("../../../Domain/models/inscription.model");
 const inscriptionDb = new InscriptionModel();
-const AttendanceModel = require("../Domain/models/attendance.model");
+const AttendanceModel = require("../../../Domain/models/attendance.model");
 const attendaceDb = new AttendanceModel();
-const CurseAttendanceModel = require("../Domain/models/course_attendance.model");
+const CurseAttendanceModel = require("../../../Domain/models/course_attendance.model");
 const curse_attendanceDb = new CurseAttendanceModel();
 
 class StudentController {
