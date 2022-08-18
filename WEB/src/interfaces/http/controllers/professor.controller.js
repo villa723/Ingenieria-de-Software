@@ -1,18 +1,18 @@
 const express = require("express");
 const router = express.Router();
-const PersonModel = require("../../../Domain/models/person.model");
+const PersonModel = require("../../../domain/models/person.model");
 const personDb = new PersonModel();
-const LoginModel = require("../../../Domain/models/login.model");
+const LoginModel = require("../../../domain/models/login.model");
 const loginDb = new LoginModel();
-const ProfessorModel = require("../../../Domain/models/professor.model");
+const ProfessorModel = require("../../../domain/models/professor.model");
 const professorDb = new ProfessorModel();
-const InscriptionModel = require("../../../Domain/models/inscription.model");
+const InscriptionModel = require("../../../domain/models/inscription.model");
 const inscriptionDb = new InscriptionModel();
-const CourseModel = require("../../../Domain/models/course.model")
+const CourseModel = require("../../../domain/models/course.model")
 const courseDb = new CourseModel();
-const CourseStudentsModel = require("../../../Domain/models/cursos_estudiantes.model");
+const CourseStudentsModel = require("../../../domain/models/course_student.model");
 const courseStudentsDb = new CourseStudentsModel();
-const SheduleModel = require("../../../Domain/models/shedule.model");
+const SheduleModel = require("../../../domain/models/shedule.model");
 const sheduleDb = new SheduleModel();
 
 class ProfessorController {
