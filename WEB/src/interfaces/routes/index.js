@@ -7,6 +7,9 @@ const dataDb = new DataController();
 const ProfessorController = require("../controllers/professor.controller");
 const professorDb = new ProfessorController();
 
+
+
+
 router.get("/register", async function (req, res, next) {
   const city = await dataDb.getAllCities();
   console.log(city);

@@ -1,16 +1,20 @@
 const express = require("express");
 const router = express.Router();
-const VerifyModel = require("../../../domain/models/verify.model");
+const VerifyModel = require("../../domain/models/verify.model");
 const verifyDb = new VerifyModel();
-const CityModel = require("../../../domain/models/city.model");
+const CityModel = require("../../domain/models/city.model");
 const cityDb = new CityModel();
-const SectionModel = require("../../../domain/models/section.model");
+const SectionModel = require("../../domain/models/section.model");
 const sectionDb = new SectionModel();
-const TypeModel = require("../../../domain/models/type.model");
+const TypeModel = require("../../domain/models/type.model");
 const typeDb = new TypeModel();
-const PersonModel = require("../../../domain/models/person.model");
+const PersonModel = require("../../domain/models/person.model");
 const personDb = new PersonModel();
-const CourseModel = require("../../../domain/models/course.model");
+const CourseModel = require("../../domain/models/course.model");
+
+const CityService = require("../../aplication/services/city.service");
+const CityRepository = require("../../domain/repository/city.repository");
+
 const courseDb = new CourseModel();
 
 class DataController {
@@ -41,13 +45,15 @@ class DataController {
   }
 
   async getAllCities() {
-    const result = cityDb.getAll();
-    const data = await result.catch(err => {
+    var instanceCityRepository = new CityRepository(cityDb);
+    var tbl2 = new CityService(instanceCityRepository);
+    const data = await tbl2.getAll().catch(err => {
       console.log("controller Error", err);
       return null;
     });
     return data;
   }
+
 
   async getAllType() {
     const result = typeDb.getAll();

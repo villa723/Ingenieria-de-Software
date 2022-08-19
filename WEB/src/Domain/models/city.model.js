@@ -4,6 +4,7 @@ const connectionDb = require("../../config/dbconnections");
 
 class CityModel {
   async getAll() {
+    console.log("ñomiño");
     const con = connectionDb.promise();
     const data = await con.query("SELECT * FROM city");
     return data[0];
