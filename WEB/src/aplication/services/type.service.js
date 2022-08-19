@@ -7,6 +7,7 @@ class TypeService extends BaseService {
   }
 
 
+
 }
 
 module.exports = TypeService;

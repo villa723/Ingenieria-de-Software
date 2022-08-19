@@ -62,6 +62,7 @@ class StudentController {
     console.log("dataLogin", dataLogin);
     return dataLogin;
   }
+
   async login(email, password) {
     const result = loginDb.authenticate(email, password);
     const data = await result.catch((err) => {

@@ -10,6 +10,7 @@ const TypeModel = require("../../domain/models/type.model");
 const typeDb = new TypeModel();
 const PersonModel = require("../../domain/models/person.model");
 const personDb = new PersonModel();
+
 const CourseModel = require("../../domain/models/course.model");
 
 const CityService = require("../../aplication/services/city.service");
@@ -18,13 +19,18 @@ const CityRepository = require("../../domain/repository/city.repository");
 const TypeService = require("../../aplication/services/type.service");
 const TypeRepository = require("../../domain/repository/type.repository");
 
+const SectionService = require("../../aplication/services/type.service");
+const SectionRepository = require("../../domain/repository/type.repository");
+
 const courseDb = new CourseModel();
 
 class DataController {
   constructor() { }
 
   async getAllPerson() {
-    const result = personDb.getAll();
+    var instancePersonRepository = new TypeRepository(personDb);
+    var instancePersonService = new TypeService(instancePersonRepository);
+    const result = instancePersonService.getAll();
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
@@ -33,7 +39,9 @@ class DataController {
   }
 
   async getAllVerify() {
-    const result = verifyDb.getAll();
+    var instanceVerifyRepository = new VerifyRepository(personDb);
+    var instanceVerifyService = new VerifyService(instanceVerifyRepository);
+    const result = instanceVerifyService.getAll();
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
@@ -72,7 +80,9 @@ class DataController {
   }
 
   async getAllSection() {
-    const result = sectionDb.getAll();
+    var instanceSectionRepository = new SectionRepository(sectionDb);
+    var instanceSectionService = new SectionService(instanceSectionRepository);
+    const result = instanceSectionService.getAll();
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
@@ -89,6 +99,7 @@ class DataController {
     });
     return data;
   }
+
   async findCityById(id) {
     const result = cityDb.findById(id);
     const data = await result.catch(err => {
@@ -99,7 +110,9 @@ class DataController {
   }
 
   async getAllCourses() {
-    const result = courseDb.getAll();
+    var instanceCoursesRepository = new CoursesRepository(CoursesDb);
+    var instanceCoursesService = new CoursesService(instanceCoursesRepository);
+    const result = instanceCoursesService.getAll();
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
