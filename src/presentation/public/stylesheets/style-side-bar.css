@@ -20,7 +20,7 @@ nav{
 
 nav h2{
     margin-top: 8vh;
-    font-family: Mulish;
+    font-family: Mulish, sans-serif;
     font-style: normal;
     font-weight: 800;
     text-align: center;
@@ -67,7 +67,7 @@ nav #options ul li a i{
 }
 
 nav #options ul li a p{
-    font-family: Mulish;
+    font-family: Mulish, sans-serif;
     margin: 0 0 0 20px;
     color: #FFFFFF;
 }

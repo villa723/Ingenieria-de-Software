@@ -14,7 +14,7 @@
 
 #bar h4, #bar h5{
     color: white;
-    font-family: Mulish;
+    font-family: Mulish, sans-serif;
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
