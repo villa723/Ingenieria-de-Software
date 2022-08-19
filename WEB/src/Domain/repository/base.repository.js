@@ -1,6 +1,5 @@
 class BaseRepository {
   constructor(model) {
-    console.log("no me construte")
     this.model = model;
     this.model.getAll();
   }

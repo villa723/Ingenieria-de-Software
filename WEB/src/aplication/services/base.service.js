@@ -2,7 +2,6 @@ class BaseService {
   constructor(Repository) {
     this.repository = Repository;
   }
-
   async get(id) {
     if (!id) {
       const error = new Error();
@@ -18,7 +17,6 @@ class BaseService {
       error.message = "Entidad no encontrada"
       throw error;
     }
-
     return entity
   }
 
@@ -30,7 +28,6 @@ class BaseService {
       error.message = "Entidad no encontrada"
       throw error;
     }
-
     return entity
   }
 }

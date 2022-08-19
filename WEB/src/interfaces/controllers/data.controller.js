@@ -15,10 +15,14 @@ const CourseModel = require("../../domain/models/course.model");
 const CityService = require("../../aplication/services/city.service");
 const CityRepository = require("../../domain/repository/city.repository");
 
+const TypeService = require("../../aplication/services/type.service");
+const TypeRepository = require("../../domain/repository/type.repository");
+
 const courseDb = new CourseModel();
 
 class DataController {
   constructor() { }
+
   async getAllPerson() {
     const result = personDb.getAll();
     const data = await result.catch(err => {
@@ -27,6 +31,7 @@ class DataController {
     });
     return data;
   }
+
   async getAllVerify() {
     const result = verifyDb.getAll();
     const data = await result.catch(err => {
@@ -35,6 +40,7 @@ class DataController {
     });
     return data;
   }
+
   async getDataVerifyByCui(cui) {
     const result = verifyDb.findCui(cui);
     const data = await result.catch(err => {
@@ -46,8 +52,8 @@ class DataController {
 
   async getAllCities() {
     var instanceCityRepository = new CityRepository(cityDb);
-    var tbl2 = new CityService(instanceCityRepository);
-    const data = await tbl2.getAll().catch(err => {
+    var instanceCityService = new CityService(instanceCityRepository);
+    const data = await instanceCityService.getAll().catch(err => {
       console.log("controller Error", err);
       return null;
     });
@@ -56,8 +62,9 @@ class DataController {
 
 
   async getAllType() {
-    const result = typeDb.getAll();
-    const data = await result.catch(err => {
+    var instanceTypeRepository = new TypeRepository(typeDb);
+    var instanceTypeService = new TypeService(instanceTypeRepository);
+    const data = await instanceTypeService.getAll().catch(err => {
       console.log("controller Error", err);
       return null;
     });
