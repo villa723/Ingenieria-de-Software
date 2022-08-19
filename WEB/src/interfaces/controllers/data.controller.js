@@ -10,8 +10,8 @@ const TypeModel = require("../../domain/models/type.model");
 const typeDb = new TypeModel();
 const PersonModel = require("../../domain/models/person.model");
 const personDb = new PersonModel();
-
 const CourseModel = require("../../domain/models/course.model");
+const courseDb = new CourseModel();
 
 const CityService = require("../../aplication/services/city.service");
 const CityRepository = require("../../domain/repository/city.repository");
@@ -22,7 +22,7 @@ const TypeRepository = require("../../domain/repository/type.repository");
 const SectionService = require("../../aplication/services/type.service");
 const SectionRepository = require("../../domain/repository/type.repository");
 
-const courseDb = new CourseModel();
+
 
 class DataController {
   constructor() { }
@@ -90,9 +90,10 @@ class DataController {
     return data;
   }
 
-
   async findCityByName(name) {
-    const result = cityDb.findByName(name);
+    var instanceCityRepository = new CityRepository(cityDb);
+    var instanceCityService = new CityService(instanceCityRepository);
+    const result = instanceCityService.findByName(name);
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
@@ -101,7 +102,9 @@ class DataController {
   }
 
   async findCityById(id) {
-    const result = cityDb.findById(id);
+    var instanceCityRepository = new CityRepository(cityDb);
+    var instanceCityService = new CityService(instanceCityRepository);
+    const result = instanceCityService.get(id);
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
@@ -121,7 +124,9 @@ class DataController {
   }
 
   async findCourseById(id) {
-    const result = courseDb.findById(id)
+    var instanceCoursesRepository = new CoursesRepository(CoursesDb);
+    var instanceCoursesService = new CoursesService(instanceCoursesRepository);
+    const result = instanceCoursesService.get(id)
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
@@ -130,7 +135,9 @@ class DataController {
   }
 
   async findCourseByName(name) {
-    const result = courseDb.findByName(name)
+    var instanceCoursesRepository = new CoursesRepository(CoursesDb);
+    var instanceCoursesService = new CoursesService(instanceCoursesRepository);
+    const result = instanceCoursesService.findByName(name)
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;

@@ -10,7 +10,25 @@ class BaseService {
       throw error;
     }
 
-    const entity = await this.repository.get(id);
+    const entity = await this.repository.findById(id);
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Entidad no encontrada"
+      throw error;
+    }
+    return entity
+  }
+
+  async getByName(name) {
+    if (!name) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Parametro id debe ser enviado"
+      throw error;
+    }
+
+    const entity = await this.repository.getByName(name);
     if (!entity) {
       const error = new Error();
       error.status = 400;

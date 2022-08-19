@@ -9,6 +9,9 @@ class BaseRepository {
   async getAll() {
     return await this.model.getAll();
   }
+  async getByName(name) {
+    return await this.model.getByName(name);
+  }
   async create(entity) {
     return await this.model.create(entity);
   }
