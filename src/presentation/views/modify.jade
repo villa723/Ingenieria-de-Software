@@ -50,19 +50,19 @@ html(lang='es')
         .box
           label(for='nombre') Nombre de Curso
           input#nombre(type='text' name='nombre' value='#{course.Course_Name}')
-        div Seleccionado anteriormente #{course.Section_Name} 
+        // div Seleccionado anteriormente #{course.Section_Name} 
         .box
           label(for='seccion') Sección  
           select#seccion(name='seccion')
               each section in sections
                 option(value='#{section.SectionID}') #{section.Section_Name}
-        div Seleccionado anteriormente #{course.Type_Name}
+        // div Seleccionado anteriormente #{course.Type_Name}
         .box
           label(for='tipo') Tipo
           select#tipo(name='tipo')
             each type in types
                 option(value='#{type.TypeID}') #{type.Type_Name} 
-         div Seleccionado anteriormente #{course.Semestre}
+         // div Seleccionado anteriormente #{course.Semestre}
         .box
           label(for='semestre') Semestre
           select#semestre(name='semestre')

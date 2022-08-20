@@ -9,7 +9,7 @@ class InscriptionModel {
     return data[0];
   }
 
-  async create(StudentID, CourseID) {
+  async create({ StudentID, CourseID }) {
     const con = connectionDb.promise();
     const data = await con.query(
       "INSERT INTO inscription (StudentID,CourseID) VALUES (?,?)",
@@ -17,6 +17,7 @@ class InscriptionModel {
     );
     return data[0];
   }
+
   async findByCui(StudentID) {
     const con = connectionDb.promise();
     const data = await con.query(

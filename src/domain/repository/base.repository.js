@@ -3,7 +3,7 @@ class BaseRepository {
     this.model = model;
   }
   async get(id) {
-    return await this.model.findById(id);
+    return await this.model.get(id);
   }
   async getAll() {
     return await this.model.getAll();
@@ -16,6 +16,9 @@ class BaseRepository {
   }
   async update(entity) {
     return await this.model.update(entity);
+  }
+  async delete(id) {
+    return await this.model.delete(id);
   }
 }
 

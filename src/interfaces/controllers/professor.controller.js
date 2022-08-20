@@ -62,7 +62,7 @@ class ProfessorController {
   async studentInscription(StudentID, CourseID) {
     var instanceInscriptionRepository = new InscriptionRepository(inscriptionDb);
     var instanceInscriptionService = new InscriptionService(instanceInscriptionRepository);
-    const result = instanceInscriptionService.create(StudentID, CourseID);
+    const result = instanceInscriptionService.create({ StudentID, CourseID });
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
@@ -73,7 +73,7 @@ class ProfessorController {
   async NuevoHorario(Day, Start, Finish, CourseID) {
     var instanceSheduleRepository = new SheduleRepository(sheduleDb);
     var instanceSheduleService = new SheduleService(instanceSheduleRepository);
-    const result = instanceSheduleService.create(Day, Start, Finish, CourseID);
+    const result = instanceSheduleService.create({ Day, Start, Finish, CourseID });
     const data = await result.catch((err) => {
       console.log("controller Error", err);
       return null;
@@ -95,8 +95,7 @@ class ProfessorController {
   async NuevoCourse(Course_Name, SectionID, TypeID, ProfessorID, NumEst, Semestre) {
     var instanceCourseRepository = new CourseRepository(courseDb);
     var instanceCourseService = new CourseService(instanceCourseRepository);
-    
-    const result = instanceCourseService.create(Course_Name, SectionID, TypeID, ProfessorID, NumEst, Semestre);
+    const result = instanceCourseService.create({Course_Name, SectionID, TypeID, ProfessorID, NumEst, Semestre});
     const data = await result.catch(err => {
       console.log("controller Error", err);
       return null;
@@ -123,6 +122,7 @@ class ProfessorController {
     var instanceLoginService = new LoginService(instanceLoginRepository);
       
     const result = instancePersonService.create(
+      
       First_Name,
       Last_Name,
       Email,
@@ -130,6 +130,7 @@ class ProfessorController {
       null,
       Mobile_Phone,
       CityID
+      
     );
 
     const data = await result.catch((err) => {
@@ -137,13 +138,16 @@ class ProfessorController {
       return null;
     });
 
-    const resultProfessor = instanceProfessorService.create(Department, data.insertId, idDNI);
+    let dataId;
+    const resultProfessor = instanceProfessorService.create({ Department, dataId, idDNI });
     const dataProfessor = await resultProfessor.catch(err => {
       console.log("controller Error Professor", err);
       return null;
     })
 
-    const resultLogin = instanceLoginService.create(Email, Password, null, idDNI, 1);
+    let val = null;
+    let rol = 1;
+    const resultLogin = instanceLoginService.create({ Email, Password, val , idDNI, rol});
     const dataLogin = await result.catch((err) => {
       console.log("controller Error", err);
       return null;
@@ -228,7 +232,7 @@ class ProfessorController {
     var instanceCourseRepository = new CourseRepository(courseDb);
     var instanceCourseService = new CourseService(instanceCourseRepository);
     
-    const result = instanceCourseService.update(name, section, type, semestre, id)
+    const result = instanceCourseService.update({ name, section, type, semestre, id })
     const data = await result.catch((err) => {
       console.log("Controller error", err);
       return null;

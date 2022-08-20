@@ -5,13 +5,13 @@ const connectionDb = require("../../config/dbconnections");
 class CourseModel {
 
   async create(
-    Course_Name,
-    SectionID,
-    TypeID,
-    ProfessorID,
-    NumEst,
-    Semestre,
-  ) {
+    { Course_Name,
+      SectionID,
+      TypeID,
+      ProfessorID,
+      NumEst,
+      Semestre,
+    }) {
     const con = connectionDb.promise();
     const data = await con.query("INSERT INTO course (Course_Name,SectionID,TypeID,ProfessorID,NumEst,Semestre) VALUES (?,?,?,?,?,?)",
       [Course_Name, SectionID, TypeID, ProfessorID, NumEst, Semestre]
@@ -46,7 +46,7 @@ class CourseModel {
     return data[0];
   }
 
-  async findById(id) {
+  async get(id) {
     const con = connectionDb.promise();
     const data = await con.query(
       "SELECT * FROM course INNER JOIN section ON course.SectionID = section.SectionID INNER JOIN type ON course.TypeID = type.TypeID  WHERE course.CourseID = ?", [

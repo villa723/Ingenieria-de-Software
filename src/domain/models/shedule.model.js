@@ -23,7 +23,7 @@ class SheduleModel {
     return data[0];
   }
 
-  async findById(id) {
+  async get(id) {
     const con = connectionDb.promise();
     const data = await con.query("SELECT * FROM schedule WHERE CourseID = ?", [id]);
     console.log("model", data);
