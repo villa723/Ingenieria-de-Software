@@ -6,7 +6,7 @@ class SectionRepository extends BaseRepository {
   }
 
   async getAllWithoutPagination() {
-    return await this.model.find();
+    return this.model.find();
   }
 }
 
