@@ -6,7 +6,7 @@ class LoginService extends BaseService {
     this._LoginRepository = LoginRepository;
   }
 
-   async authenticate(email , password  ) {
+   async authenticate(email , password) {
     if (!email || !password) {
       const error = new Error();
       error.status = 400;
