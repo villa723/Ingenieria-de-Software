@@ -4,7 +4,6 @@ class CourseStudentsRepository extends BaseRepository {
   constructor(CourseStudentsDb) {
     super(CourseStudentsDb);
   }
-
   
 }
 

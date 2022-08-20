@@ -24,7 +24,7 @@ class BaseService {
     if (!name) {
       const error = new Error();
       error.status = 400;
-      error.message = "Parametro id debe ser enviado"
+      error.message = "Parametro name debe ser enviado"
       throw error;
     }
 
