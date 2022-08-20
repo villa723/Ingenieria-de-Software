@@ -1,13 +1,29 @@
-const BaseRepository = require("./base.repository");
+const BaseService = require("./base.service");
 
-class LoginRepository extends BaseRepository {
-  constructor(LoginDb) {
-    super(LoginDb);
+class LoginService extends BaseService {
+  constructor(LoginRepository) {
+    super(LoginRepository);
+    this._LoginRepository = LoginRepository;
   }
 
-  async getAllWithoutPagination() {
-    return await this.model.find();
+   async authenticate(email , password  ) {
+    if (!email || !password) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Email or password missing"
+      throw error;
+    }
+    
+    const entity = await this.repository.authenticate(email, password);
+     
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Failed authentication"
+      throw error;
+    }
+    return entity
   }
 }
 
-module.exports = LoginRepository
+module.exports = LoginService;

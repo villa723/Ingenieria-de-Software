@@ -8,6 +8,10 @@ class CourseRepository extends BaseRepository {
   async getAllWithoutPagination() {
     return await this.model.find();
   }
+
+  async findByIdProfessor(id) {
+    return await this.model.findByIdProfessor(id);
+  }
 }
 
 module.exports = CourseRepository

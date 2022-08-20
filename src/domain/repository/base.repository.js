@@ -1,7 +1,6 @@
 class BaseRepository {
   constructor(model) {
     this.model = model;
-    this.model.getAll();
   }
   async get(id) {
     return await this.model.findById(id);
@@ -14,6 +13,9 @@ class BaseRepository {
   }
   async create(entity) {
     return await this.model.create(entity);
+  }
+  async update(entity) {
+    return await this.model.update(entity);
   }
 }
 

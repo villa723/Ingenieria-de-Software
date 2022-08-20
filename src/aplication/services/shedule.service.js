@@ -1,13 +1,10 @@
-const BaseRepository = require("./base.repository");
+const BaseService = require("./base.service");
 
-class SheduleRepository extends BaseRepository {
-  constructor(SheduleDb) {
-    super(SheduleDb);
-  }
-
-  async getAllWithoutPagination() {
-    return await this.model.find();
+class SheduleService extends BaseService{
+  constructor(SheduleRepository) {
+    super(SheduleRepository);
+    this._SheduleRepository = SheduleRepository;
   }
 }
 
-module.exports = SheduleRepository
+module.exports = SheduleService

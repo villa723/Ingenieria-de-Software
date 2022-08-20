@@ -1,13 +1,10 @@
-const BaseRepository = require("./base.repository");
+const BaseService = require("./base.service");
 
-class InscriptionRepository extends BaseRepository {
-  constructor(InscriptionDb) {
-    super(InscriptionDb);
-  }
-
-  async getAllWithoutPagination() {
-    return await this.model.find();
+class InscriptionService extends BaseService {
+  constructor(InscriptionRepository) {
+    super(InscriptionRepository);
+    this._InscriptionRepository = InscriptionRepository;
   }
 }
 
-module.exports = InscriptionRepository
+module.exports = InscriptionService;

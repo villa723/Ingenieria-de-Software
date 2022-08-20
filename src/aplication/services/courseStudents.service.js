@@ -1,13 +1,11 @@
-const BaseRepository = require("./base.repository");
+const BaseService = require("./base.service");
 
-class CourseStudentsRepository extends BaseRepository {
-  constructor(CourseStudentsDb) {
-    super(CourseStudentsDb);
+class CourseStudentsService extends BaseService {
+  constructor(CourseStudentsRepository) {
+    super(CourseStudentsRepository);
+    this._CourseStudentsRepository = CourseStudentsRepository;
   }
 
-  async getAllWithoutPagination() {
-    return await this.model.find();
-  }
 }
 
-module.exports = CourseStudentsRepository
+module.exports = CourseStudentsService;

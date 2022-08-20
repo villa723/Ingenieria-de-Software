@@ -7,6 +7,10 @@ class LoginRepository extends BaseRepository {
   async getAllWithoutPagination() {
     return await this.model.find();
   }
+
+  async authenticate(email , password) {
+    return await this.model.authenticate(email , password);
+  }
 }
 
 module.exports = LoginRepository

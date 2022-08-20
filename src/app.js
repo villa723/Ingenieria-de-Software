@@ -34,6 +34,7 @@ app.use(function (err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
+  //q errores mas sale meeri // ahora no corre actualice lo de juan manuel y efe
   res.render('error');
 });
 

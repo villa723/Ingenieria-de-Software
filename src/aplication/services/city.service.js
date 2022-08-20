@@ -5,7 +5,6 @@ class CityService extends BaseService {
     super(CityRepository);
     this._cityRepository = CityRepository;
   }
-  //async getAllCities
 }
 
 module.exports = CityService;
