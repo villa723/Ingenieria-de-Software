@@ -48,6 +48,19 @@ class BaseService {
     }
     return entity
   }
+
+  async update(data) {
+    const entity = await this.repository.update(data);
+    
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Entidad no encontrada"
+      throw error;
+    }
+    return entity
+
+  }
 }
 
 module.exports = BaseService

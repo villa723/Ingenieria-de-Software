@@ -69,7 +69,7 @@ class CourseModel {
     return data[0];
   }
 
-  async update(name, section, type, semestre, id) {
+  async update({ name, section, type, semestre, id }) {
     const con = connectionDb.promise();
     const data = await con.query("UPDATE course SET Course_Name = ? , SectionId = ? , TypeID = ? , Semestre = ? WHERE CourseID = ?", [
       name, section, type, semestre, id

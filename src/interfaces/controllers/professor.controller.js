@@ -84,7 +84,7 @@ class ProfessorController {
   async GetHorario(CourseID) {
     var instanceSheduleRepository = new SheduleRepository(sheduleDb);
     var instanceSheduleService = new SheduleService(instanceSheduleRepository);
-    const result = instanceSheduleService.findById(CourseID);
+    const result = instanceSheduleService.get(CourseID);
     const data = await result.catch((err) => {
       console.log("controller Error Get Horario ", err);
       return null;
@@ -216,7 +216,7 @@ class ProfessorController {
     var instanceCourseRepository = new CourseRepository(courseDb);
     var instanceCourseService = new CourseService(instanceCourseRepository);
     
-    const result = instanceCourseService.findById(id)
+    const result = instanceCourseService.get(id)
     const data = await result.catch((err) => {
       console.log("Controller error", err);
       return null;
