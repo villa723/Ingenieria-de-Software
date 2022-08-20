@@ -9,7 +9,6 @@ class CityModel {
     const data = await con.query("SELECT * FROM city");
     return data[0];
   }
-
   async findById(id) {
     const con = connectionDb.promise();
     const data = await con.query("SELECT * FROM city WHERE CityID = ?", [id]);
