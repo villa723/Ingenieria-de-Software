@@ -185,9 +185,11 @@ Una clase debe realizar solo las acciones necesarias para cumplir su función. C
 #### Fragmento de Código
 
 Implementacion crud en la sigueinte imagen en base repository: 
+
 ![image](https://user-images.githubusercontent.com/79772873/186266190-ee8f3091-9f82-443a-a969-9f538cdccf8f.png)
 
 Se usa en las siguientes clases: 
+
 ![image](https://user-images.githubusercontent.com/79772873/187010495-54a84de6-9407-4c47-8ceb-a3e833a70dbc.png)
 
 
