@@ -158,6 +158,7 @@ pero si has trabajado con marcos PHP (como Symfony), has visto una implementaci�
 Un gran beneficio de esto es que reduce el acoplamiento entre módulos. El acoplamiento es un patrón de desarrollo muy malo porque hace que su código sea difícil de refactorizar.
 
 #### Fragmento de código
+Como visto en clase repository y los services , funcionan como interfaces , en el condigo se implemento dos bases de clases de las cual se extendera , para no repetir codigo , como se muestra en las siguientes imagenes , como en el anterior principio solid , cada clase , modela para un entidad , tiene funciones propias de este modelo que no deberian ir en la clase base .
 
 Clase base de implementación de crud en la siguiente imagen: 
 
