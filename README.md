@@ -170,7 +170,8 @@ Clases que usan al implementacion de base Service.
 ### Principio abierto/cerrado (OCP)
 #### Descripción
 
-Como afirma Bertrand Meyer, "las entidades de software (clases, módulos, funciones, etc.) deben estar abiertas a la extensión, pero cerradas a la modificación". Pero, ¿qué significa eso? Este principio básicamente establece que debe permitir a los usuarios agregar nuevas funcionalidades sin cambiar el código existente.
+El Principio Abierto/Cerrado, también conocido como Open/Closed Principle o por sus siglas OCP, es el segundo de los 5 principios SOLID de la programación orientada a objetos.
+En su definición, este principio dice que «un módulo de software debería estar abierto a extensión pero cerrado a modificación».
 
 #### Fragmento de Código
 
