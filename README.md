@@ -172,7 +172,6 @@ Clases que usan al implementacion de base Service.
 #### Descripción
 
 El Principio Abierto/Cerrado, también conocido como Open/Closed Principle o por sus siglas OCP, es el segundo de los 5 principios SOLID de la programación orientada a objetos.
-En su definición, este principio dice que «un módulo de software debería estar abierto a extensión pero cerrado a modificación».
 
 Los módulos que cumplen con el principio abierto-cerrado tienen dos características principales. Estos son
 
@@ -182,8 +181,105 @@ Esto significa que el comportamiento del módulo puede ser extendido. Cuando los
  - “Cerrado para la modificación”
 
 Esto significa que extender el comportamiento de un módulo no debería tener como resultado cambiar el código fuente, es decir, el código original debe permanecer sin cambios. 
+
 #### Fragmento de Código
-La siguiente imagen muestra la implementación de la clase Base Service , en la cual establecimos las principales funciones crud para no repetir código , a continuación la implementación , en la segunda imagen podemos observar que la clases extiende , de la mostrada anteriormente , aqui implementamos funcionalidades propias de esta que la clase base no deberia tener ya que no son para todas : 
+
+La siguiente fragmento de código muestra la implementación de la clase Base Service , en la cual se encuentran las funciones crud , cumple con las caracteristica de este principio ya que se puede observar que en la clase baseRepository estan implementadas en la segunda imagen podemos observar que la clases extiende , de la mostrada anteriormente , aqui implementamos funcionalidades propias de esta que la clase base no deberia tener ya que no son para todas : 
+
+/* */
+
+``` javascript
+class BaseService {
+  constructor(Repository) {
+    this.repository = Repository;
+  }
+  async get(id) {
+    if (!id) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Parametro id debe ser enviado"
+      throw error;
+    }
+
+    const entity = await this.repository.get(id);
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Entidad no encontrada"
+      throw error;
+    }
+    return entity
+  }
+
+  async getByName(name) {
+    if (!name) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Parametro name debe ser enviado"
+      throw error;
+    }
+
+    const entity = await this.repository.getByName(name);
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Entidad no encontrada"
+      throw error;
+    }
+    return entity
+  }
+
+  async getAll() {
+    const entity = await this.repository.getAll();
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Entidad no encontrada"
+      throw error;
+    }
+    return entity
+  }
+
+  async create(data) {
+    const entity = await this.repository.create(data);
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Entidad no encontrada"
+      throw error;
+    }
+    return entity
+  }
+
+  async update(data) {
+    const entity = await this.repository.update(data);
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Entidad no encontrada"
+      throw error;
+    }
+    return entity
+
+  }
+
+  async delete(id) {
+    const entity = await this.repository.delete(id);
+    if (!entity) {
+      const error = new Error();
+      error.status = 400;
+      error.message = "Entidad no encontrada"
+      throw error;
+    }
+    return entity
+
+  }
+}
+
+module.exports = BaseService
+```
+
+
 
 ![image](https://user-images.githubusercontent.com/79772873/187010880-ff2ff208-3221-46d1-9ef9-b1ee40719b4e.png)
 
