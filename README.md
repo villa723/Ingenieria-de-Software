@@ -160,9 +160,11 @@ Un gran beneficio de esto es que reduce el acoplamiento entre módulos. El acopl
 #### Fragmento de código
 
 Clase base de implementación de crud en la siguiente imagen: 
+
 ![image](https://user-images.githubusercontent.com/79772873/187010563-0dad0d99-4d68-4105-b7e1-d092795005ec.png)
 
 Clases que usan al implementacion de base Service.
+
 ![image](https://user-images.githubusercontent.com/79772873/187010583-371bc6d1-82af-40d2-91ee-2e05ef3902d2.png)
 
 ### Principio abierto/cerrado (OCP)
@@ -171,6 +173,7 @@ Clases que usan al implementacion de base Service.
 Como afirma Bertrand Meyer, "las entidades de software (clases, módulos, funciones, etc.) deben estar abiertas a la extensión, pero cerradas a la modificación". Pero, ¿qué significa eso? Este principio básicamente establece que debe permitir a los usuarios agregar nuevas funcionalidades sin cambiar el código existente.
 
 #### Fragmento de Código
+
 ![image](https://user-images.githubusercontent.com/79772873/187010309-e5295fd7-0c57-46e9-8a0c-987b2bdc8d87.png)
 
 
@@ -181,14 +184,12 @@ Una clase debe realizar solo las acciones necesarias para cumplir su función. C
 
 #### Fragmento de Código
 
-![Uploading image.png…]()
-
-
 Implementacion crud en la sigueinte imagen en base repository: 
 ![image](https://user-images.githubusercontent.com/79772873/186266190-ee8f3091-9f82-443a-a969-9f538cdccf8f.png)
 
 Se usa en las siguientes clases: 
 ![image](https://user-images.githubusercontent.com/79772873/187010495-54a84de6-9407-4c47-8ceb-a3e833a70dbc.png)
+
 
 ![image](https://user-images.githubusercontent.com/79772873/187010519-2529dada-354a-4d32-81e2-41f1112099c0.png)
 
