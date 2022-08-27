@@ -173,6 +173,14 @@ Clases que usan al implementacion de base Service.
 El Principio Abierto/Cerrado, también conocido como Open/Closed Principle o por sus siglas OCP, es el segundo de los 5 principios SOLID de la programación orientada a objetos.
 En su definición, este principio dice que «un módulo de software debería estar abierto a extensión pero cerrado a modificación».
 
+Los módulos que cumplen con el principio abierto-cerrado tienen dos características principales. Estos son
+
+ - "Abiertos para la extensión” 
+Esto significa que el comportamiento del módulo puede ser extendido. Cuando los requerimientos de la aplicación cambian, debemos ser capaces de extender el módulo con estos nuevos comportamientos que satisfagan esos cambios. En otras palabras, debemos ser capaces de cambiar lo que el módulo hace.
+
+ - “Cerrado para la modificación”
+
+Esto significa que extender el comportamiento de un módulo no debería tener como resultado cambiar el código fuente, es decir, el código original debe permanecer sin cambios. 
 #### Fragmento de Código
 
 ![image](https://user-images.githubusercontent.com/79772873/187010309-e5295fd7-0c57-46e9-8a0c-987b2bdc8d87.png)
