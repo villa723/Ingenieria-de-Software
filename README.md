@@ -182,6 +182,10 @@ Esto significa que el comportamiento del módulo puede ser extendido. Cuando los
 
 Esto significa que extender el comportamiento de un módulo no debería tener como resultado cambiar el código fuente, es decir, el código original debe permanecer sin cambios. 
 #### Fragmento de Código
+La siguiente imagen muestra la implementación de la clase Base Service , en la cual establecimos las principales funciones crud para no repetir código , a continuación la implementación: 
+
+![image](https://user-images.githubusercontent.com/79772873/187010880-ff2ff208-3221-46d1-9ef9-b1ee40719b4e.png)
+
 
 ![image](https://user-images.githubusercontent.com/79772873/187010309-e5295fd7-0c57-46e9-8a0c-987b2bdc8d87.png)
 
